@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+web_vapt_report.json
+.env
