@@ -1,0 +1,24 @@
+{
+  "target": "https://demo.example",
+  "synthetic": true,
+  "http_status": 200,
+  "risk_score": 24,
+  "risk_rating": "Medium",
+  "findings": [
+    {
+      "severity": "Medium",
+      "title": "Missing strict-transport-security",
+      "evidence": "HSTS header absent in simulated response.",
+      "recommendation": "Configure an appropriate HSTS policy.",
+      "category": "Security Headers"
+    },
+    {
+      "severity": "Low",
+      "title": "Server banner disclosed",
+      "evidence": "Server: ExampleServer/1.0",
+      "recommendation": "Minimize unnecessary version disclosure.",
+      "category": "Information Disclosure"
+    }
+  ],
+  "notes": "Synthetic example only. No real target was scanned."
+}
