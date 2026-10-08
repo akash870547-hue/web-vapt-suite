@@ -68,3 +68,16 @@ This suite therefore aims for broad **safe detection/triage**, while keeping
 destructive or exploit behavior out of the automated scanner.
 
 Use only on systems you own or are explicitly authorized to assess.
+
+
+## Methodology
+
+See [docs/testing-methodology.md](docs/testing-methodology.md) for the assessment workflow and evidence standard.
+
+## Reporting
+
+Use [docs/reporting-template.md](docs/reporting-template.md) to turn scanner observations into defensible VAPT findings.
+
+## Testing
+
+The repository includes lightweight regression tests for URL normalization and local JWT parsing.
